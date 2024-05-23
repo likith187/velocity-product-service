@@ -104,7 +104,7 @@ After the application starts, navigate to `localhost:8080/swagger-ui/index.html#
 You can import the postman collection present in the root directory to test the apis. 
 	file name: velocity product service.postman_collection.json
 
-Stop and remove the containers
+## Stop and remove the containers
 ```
 $ docker compose down
 [+] Running 3/3
