@@ -73,7 +73,7 @@ Project structure:
 
 ```
 
-[_docker-compose.yaml_](compose.yaml)
+[_docker-compose.yaml_](docker-compose.yaml)
 
 The compose file defines an application with two services `app` and `mysqldb`.
 When deploying the application, docker compose maps port 8080 of the backend service container to port 8080 of the host as specified in the file.
@@ -102,7 +102,7 @@ After the application starts, navigate to `localhost:8080/swagger-ui/index.html#
 
 ## Postman collection
 You can import the postman collection present in the root directory to test the apis. 
-	file name: [_velocity product service.postman_collection.json_](velocity product service.postman_collection.json)
+	file name: [_product.postman_collection.json_](product.postman_collection.json)
 
 ## Stop and remove the containers
 ```
