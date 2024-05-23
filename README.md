@@ -73,7 +73,7 @@ Project structure:
 
 ```
 
-[_docker-compose.yaml_](docker-compose.yaml)
+[_docker-compose.yml_](docker-compose.yml)
 
 The compose file defines an application with two services `app` and `mysqldb`.
 When deploying the application, docker compose maps port 8080 of the backend service container to port 8080 of the host as specified in the file.
